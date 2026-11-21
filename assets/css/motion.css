@@ -1,0 +1,55 @@
+/* Secure Biz motion: decisive entrances, plum accents and teal energy. */
+:root{--motion-snap:cubic-bezier(.16,1,.3,1);--motion-spring:cubic-bezier(.22,1.4,.36,1)}
+.particle-host{position:relative;isolation:isolate}
+.brand-particles{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;z-index:-1;border-radius:inherit}
+.reading-progress{position:fixed;left:0;top:0;width:100%;height:3px;background:linear-gradient(90deg,var(--plum),var(--teal));transform:scaleX(0);transform-origin:left;pointer-events:none;z-index:250}
+.type-char{opacity:0}
+.type-char.is-written{opacity:1}
+.is-typing .type-char.is-written:not(:has(+ .is-written)){box-shadow:2px 0 var(--teal)}
+@media(prefers-reduced-motion:no-preference){
+  header.site,.fhead{animation:brand-header-in .8s var(--motion-snap) both}
+  header.site{transition:box-shadow .4s,background .4s}
+  .btn,.picker .opts a,.chip,.fsline,.icon-button,.menubtn,.video-play{transition:transform .45s var(--motion-spring),box-shadow .4s,border-color .3s,background .3s,color .3s}
+  .btn{position:relative;overflow:hidden;isolation:isolate}
+  .btn::after{content:'';position:absolute;inset:-80% -45%;background:linear-gradient(110deg,transparent 40%,rgb(255 255 255 / 25%) 50%,transparent 60%);transform:translateX(-100%) rotate(-10deg);pointer-events:none;z-index:-1}
+  .btn:hover::after,.btn:focus-visible::after{animation:brand-sheen .7s var(--motion-snap)}
+  .btn:hover,.btn:focus-visible{transform:translateY(-4px);box-shadow:0 12px 25px rgb(15 110 110 / 22%)}
+  .btn:active,.picker .opts a:active{transform:translateY(1px) scale(.96);transition-duration:.12s}
+  .btn .arrow{transition:transform .4s var(--motion-spring)}
+  .btn:hover .arrow,.btn:focus-visible .arrow{transform:translateX(5px)}
+  .card,.indcard,.step,.fssteps li,.q,.stat,.why>div{transition:transform .5s var(--motion-spring),box-shadow .4s,border-color .35s,background .35s}
+  .photo img,.indcard img{transition:transform 1s var(--motion-snap),filter .7s}
+  .ico,.brand-mark{transition:transform .6s var(--motion-spring),color .3s,stroke .3s}
+  .logo:hover .brand-mark{transform:rotate(-9deg) scale(1.1)}
+  .card:hover>.ico,.step:hover .num,.why>div:hover>.ico{transform:translateY(-4px) rotate(-7deg) scale(1.12)}
+  .step .num{transition:transform .5s var(--motion-spring),box-shadow .4s}
+  .q summary{transition:color .3s,padding-left .4s var(--motion-snap)}
+  .q summary:hover{color:var(--teal);padding-left:8px}
+  .faq-icon{transition:transform .4s var(--motion-spring)}
+  .nav-dropdown,.mobile-dialog[open]{animation:brand-menu-in .4s var(--motion-snap) both}
+  .mobile-dialog::backdrop{animation:brand-fade-in .3s ease both}
+  .nav-dropdown a,.mobile-dialog nav>a,footer a{transition:color .25s,background .25s,transform .4s var(--motion-snap)}
+  .nav-dropdown a:hover,.mobile-dialog nav>a:not(.btn):hover{transform:translateX(5px)}
+  nav.main>a,.nav-group>button{position:relative}
+  nav.main>a::after,.nav-group>button::after{content:'';position:absolute;left:0;bottom:5px;width:100%;height:2px;background:var(--plum);transform:scaleX(0);transform-origin:left;transition:transform .4s var(--motion-snap)}
+  nav.main>a:hover::after,nav.main>a:focus-visible::after,.nav-group>button:hover::after,.nav-group>button[aria-expanded=true]::after{transform:scaleX(1)}
+  .photo-lines{animation:brand-orbit 18s ease-in-out infinite alternate}
+  .photo-lines::after{animation:brand-orbit 14s ease-in-out infinite alternate-reverse}
+  tbody tr{transition:background .3s}
+  .stickybar{animation:brand-bar-in .8s .35s var(--motion-snap) both}
+  @media(hover:hover) and (pointer:fine){
+    .card:hover,.card:focus-within,.indcard:hover,.indcard:focus-visible{transform:translateY(-9px);border-color:rgb(15 110 110 / 38%);box-shadow:0 20px 38px rgb(36 23 35 / 12%)}
+    .step:hover,.fssteps li:hover,.why>div:hover{transform:translateY(-6px)}
+    .photo:hover img,.indcard:hover img{transform:scale(1.065)}
+    .picker .opts a:hover,.chip:hover,.fsline:hover{transform:translateY(-4px)}
+    footer a:hover{transform:translateX(3px)}
+  }
+}
+@keyframes brand-header-in{from{opacity:0;transform:translateY(-24px)}to{opacity:1;transform:none}}
+@keyframes brand-menu-in{from{opacity:0;transform:translateY(14px) scale(.97)}to{opacity:1;transform:none}}
+@keyframes brand-fade-in{from{opacity:0}to{opacity:1}}
+@keyframes brand-bar-in{from{transform:translateY(100%)}to{transform:none}}
+@keyframes brand-sheen{to{transform:translateX(100%) rotate(-10deg)}}
+@keyframes brand-orbit{from{transform:rotate(-12deg) scale(.96)}to{transform:rotate(10deg) scale(1.04)}}
+@media(max-width:760px){.reading-progress{height:2px}}
+@media(prefers-reduced-motion:reduce){.type-char{opacity:1}.reading-progress,.brand-particles{display:none}}

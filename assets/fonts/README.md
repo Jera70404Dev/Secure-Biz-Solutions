@@ -1,0 +1,1 @@
+Local Latin WOFF2 fonts downloaded from the official Google Fonts CSS API. Font licenses are included as inter-OFL.txt and poppins-OFL.txt. All styles are normal; use font-display: swap. Inter files are variable fonts compatible with the declared 400, 500 and 600 weights. See sources.json for verified download URLs.
