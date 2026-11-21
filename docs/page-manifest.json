@@ -1,0 +1,254 @@
+[
+  {
+    "key": "home",
+    "url": "/",
+    "title": "Business Funding Up to $5 Million | Secure Biz Solutions",
+    "description": "Term loans, lines of credit, SBA loans, equipment financing and more, up to $5 million. One short application and a dedicated funding advisor.",
+    "form": false,
+    "conversion": false,
+    "faqCount": 8
+  },
+  {
+    "key": "how-it-works",
+    "url": "/how-it-works/",
+    "title": "How Business Funding Works | Secure Biz Solutions",
+    "description": "Apply in about three minutes, review your options with a dedicated advisor, and get funded. Here's exactly what happens at each step.",
+    "form": false,
+    "conversion": false,
+    "faqCount": 0
+  },
+  {
+    "key": "business-funding",
+    "url": "/business-funding/",
+    "title": "Business Funding Options: Loans, Lines of Credit & More | Secure Biz Solutions",
+    "description": "Compare eight ways to fund your business, from term loans and SBA loans to equipment financing and invoice factoring, up to $5 million.",
+    "form": false,
+    "conversion": false,
+    "faqCount": 8
+  },
+  {
+    "key": "high-risk",
+    "url": "/high-risk/",
+    "title": "High-Risk Business Funding | Secure Biz Solutions",
+    "description": "Turned down by your bank because of your industry? We work with lending partners that fund high-risk businesses.",
+    "form": false,
+    "conversion": false,
+    "faqCount": 4
+  },
+  {
+    "key": "merchant-services",
+    "url": "/merchant-services/",
+    "title": "Zero-Fee Credit Card Processing | Secure Biz Solutions",
+    "description": "See how much you could save on card processing. Send us a recent statement and we'll show you, line by line, what our Zero-Fee Processing program could save.",
+    "form": false,
+    "conversion": false,
+    "faqCount": 4
+  },
+  {
+    "key": "about",
+    "url": "/about/",
+    "title": "About Secure Biz Solutions",
+    "description": "Secure Biz Solutions helps small and mid-sized businesses find funding that fits, with one dedicated advisor and a network of lending partners.",
+    "form": false,
+    "conversion": false,
+    "faqCount": 0
+  },
+  {
+    "key": "faq",
+    "url": "/faq/",
+    "title": "Business Funding FAQ | Secure Biz Solutions",
+    "description": "Answers to common questions about applying, qualifying, funding speed, costs and merchant services.",
+    "form": false,
+    "conversion": false,
+    "faqCount": 15
+  },
+  {
+    "key": "contact",
+    "url": "/contact/",
+    "title": "Contact Secure Biz Solutions",
+    "description": "Talk to a funding advisor. Call or send us a message, Monday to Friday, 9 a.m. to 5 p.m. ET.",
+    "form": false,
+    "conversion": false,
+    "faqCount": 0
+  },
+  {
+    "key": "privacy-policy",
+    "url": "/privacy-policy/",
+    "title": "Privacy Policy | Secure Biz Solutions",
+    "description": null,
+    "form": false,
+    "conversion": false,
+    "faqCount": 0
+  },
+  {
+    "key": "terms",
+    "url": "/terms/",
+    "title": "Terms of Service | Secure Biz Solutions",
+    "description": null,
+    "form": false,
+    "conversion": false,
+    "faqCount": 0
+  },
+  {
+    "key": "get-funded",
+    "url": "/get-funded/",
+    "title": "Get Funded | Secure Biz Solutions",
+    "description": "See your funding options in about three minutes. Free, with no obligation.",
+    "form": true,
+    "conversion": false,
+    "faqCount": 0
+  },
+  {
+    "key": "your-options",
+    "url": "/your-options/",
+    "title": "Your Funding Options | Secure Biz Solutions",
+    "description": null,
+    "form": true,
+    "conversion": true,
+    "faqCount": 0
+  },
+  {
+    "key": "thank-you-merchant",
+    "url": "/thank-you/merchant/",
+    "title": "Thank You | Secure Biz Solutions",
+    "description": null,
+    "form": true,
+    "conversion": true,
+    "faqCount": 0
+  },
+  {
+    "key": "thank-you-follow-up",
+    "url": "/thank-you/follow-up/",
+    "title": "Thank You | Secure Biz Solutions",
+    "description": null,
+    "form": true,
+    "conversion": true,
+    "faqCount": 0
+  },
+  {
+    "key": "fresh-start",
+    "url": "/fresh-start/",
+    "title": "Fresh Start Program: Funding Help When Credit Holds You Back | Secure Biz Solutions",
+    "description": null,
+    "form": false,
+    "conversion": false,
+    "faqCount": 6
+  },
+  {
+    "key": "thank-you-fresh-start",
+    "url": "/thank-you/fresh-start/",
+    "title": "Thank You | Secure Biz Solutions",
+    "description": null,
+    "form": true,
+    "conversion": true,
+    "faqCount": 0
+  },
+  {
+    "key": "p-term-loans",
+    "url": "/business-funding/term-loans/",
+    "title": "Business Term Loans Up to $5 Million | Secure Biz Solutions",
+    "description": "Get a lump sum with fixed payments for growth, equipment or expansion. Term loans from $10K to $5M, with terms of 1 to 5 years.",
+    "form": false,
+    "conversion": false,
+    "faqCount": 10
+  },
+  {
+    "key": "p-line-of-credit",
+    "url": "/business-funding/line-of-credit/",
+    "title": "Business Line of Credit | Secure Biz Solutions",
+    "description": "Draw funds when you need them and pay only on what you use. Business lines of credit from $10K to $500K.",
+    "form": false,
+    "conversion": false,
+    "faqCount": 10
+  },
+  {
+    "key": "p-sba-loans",
+    "url": "/business-funding/sba-loans/",
+    "title": "SBA Loans Up to $5 Million, Including SBA Express | Secure Biz Solutions",
+    "description": "Government-backed SBA loans with long terms and low rates. 7(a) loans up to $5 million and SBA Express up to $500,000.",
+    "form": false,
+    "conversion": false,
+    "faqCount": 10
+  },
+  {
+    "key": "p-equipment-financing",
+    "url": "/business-funding/equipment-financing/",
+    "title": "Equipment Financing From $5K to $5M | Secure Biz Solutions",
+    "description": "Finance trucks, machines and tools with the equipment as collateral. Equipment financing from $5K to $5M with 2- to 7-year terms.",
+    "form": false,
+    "conversion": false,
+    "faqCount": 10
+  },
+  {
+    "key": "p-merchant-cash-advance",
+    "url": "/business-funding/merchant-cash-advance/",
+    "title": "Merchant Cash Advance and Revenue-Based Financing | Secure Biz Solutions",
+    "description": "Fast funding based on your sales, repaid as you earn. Merchant cash advances from $5K to $500K, often funded in one to two business days.",
+    "form": false,
+    "conversion": false,
+    "faqCount": 10
+  },
+  {
+    "key": "p-invoice-factoring",
+    "url": "/business-funding/invoice-factoring/",
+    "title": "Invoice Factoring: Turn Invoices Into Cash | Secure Biz Solutions",
+    "description": "Get up to 90% of your unpaid invoices in cash, often within days. Invoice factoring for B2B businesses tired of waiting 30 to 90 days to get paid.",
+    "form": false,
+    "conversion": false,
+    "faqCount": 10
+  },
+  {
+    "key": "p-business-credit-cards",
+    "url": "/business-funding/business-credit-cards/",
+    "title": "Business Credit Cards | Secure Biz Solutions",
+    "description": "Everyday spending power that builds your business credit. Find business credit cards with limits from $5K to $100K and up.",
+    "form": false,
+    "conversion": false,
+    "faqCount": 10
+  },
+  {
+    "key": "p-home-equity",
+    "url": "/business-funding/home-equity/",
+    "title": "Home Equity Line of Credit to Fund Your Business | Secure Biz Solutions",
+    "description": "Use the equity in your home to fund your business, with lines up to $400,000 through a licensed lending partner.",
+    "form": false,
+    "conversion": false,
+    "faqCount": 10
+  },
+  {
+    "key": "i-trucking",
+    "url": "/industries/trucking/",
+    "title": "Trucking Business Funding and Truck Financing | Secure Biz Solutions",
+    "description": "Funding for owner-operators and fleets: truck and trailer financing, fuel and repair cash, and invoice factoring for slow-paying brokers.",
+    "form": false,
+    "conversion": false,
+    "faqCount": 5
+  },
+  {
+    "key": "i-restaurants",
+    "url": "/industries/restaurants/",
+    "title": "Restaurant and Bar Business Funding | Secure Biz Solutions",
+    "description": "Funding for restaurants and bars: kitchen equipment, renovations, inventory and working capital through the slow season.",
+    "form": false,
+    "conversion": false,
+    "faqCount": 5
+  },
+  {
+    "key": "i-construction",
+    "url": "/industries/construction/",
+    "title": "Construction and Contractor Business Funding | Secure Biz Solutions",
+    "description": "Funding for contractors: equipment, materials, payroll and bonding, plus invoice factoring for slow-paying general contractors.",
+    "form": false,
+    "conversion": false,
+    "faqCount": 5
+  },
+  {
+    "key": "i-med-spas",
+    "url": "/industries/med-spas/",
+    "title": "Salon and Med Spa Business Funding | Secure Biz Solutions",
+    "description": "Funding for salons and med spas: aesthetic devices, buildouts, inventory and expansion.",
+    "form": false,
+    "conversion": false,
+    "faqCount": 5
+  }
+]
