@@ -1,0 +1,15 @@
+/tmp/
+/dist/
+/node_modules/
+**/node_modules/
+/ordenes/
+/templates/
+/docs/*
+!/docs/page-manifest.json
+/assets/images/originals/
+/assets/images/*.zip
+.env
+.env.*
+!.env.example
+*.log
+
